@@ -1,0 +1,22 @@
+{
+  "name": "xelent-abrar/hospital-expense",
+  "description": "A Laravel package to manage expense.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "XelentAbrar\\HospitalExpense\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "XelentAbrar\\HospitalExpense\\HospitalExpenseServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.0"
+  }
+}
